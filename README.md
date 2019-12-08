@@ -1,6 +1,6 @@
-#Technical Test
+# Technical Test
 
-##Problem: Calculator
+## Problem: Calculator
 Invalid inputs should be logged and input then ignored.
 
 Write some code to calculate a result from a set of instructions.  Instructions comprise of an initial number, followed by keyword and a number that are separated by new lines.  Instructions are loaded from file and results are output to the screen. Any number of Instructions can be specified. Instructions can be any binary operators of your choice (e.g., add, divide, subtract, multiply etc).  The instructions will ignore mathematical precedence. The calculator is then initialised with that first number and the subsequent instructions are applied to that number. Your command line application should be able to accept one or more files and output results of those files to screen.
@@ -48,7 +48,7 @@ __Example 3.__
 1
 ```
 
-##Assumptions
+## Assumptions
 _1. Your command line application should be able to accept one or more files and output results of those files to screen._  
 Sequentially process each file passed to the script.  
 __Example__  
@@ -79,21 +79,22 @@ If an operation causes overflow or division by 0 it does not get executed.
 _4. Any number of Instructions can be specified._  
 We don't read the whole file into memory, only process one line at a time.
 
-##Requirements
+## Requirements
 - PHP 7.2+
 - Composer
 
-##Installation
+## Installation
 ```bash
 $ composer install
 ```
 
-##Usage
+## Usage
+From the project root
 ```bash
 $ ./console.php calculate filename [filename2...]
 ```
 
-##Running Tests
+## Running Tests
 ```bash
 $ ./vendor/bin/phpunit
 ```
