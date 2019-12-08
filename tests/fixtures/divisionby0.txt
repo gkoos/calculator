@@ -1,0 +1,3 @@
+12
+subtract 2
+divide 0
